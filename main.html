@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><strong><marquee>Scholarship Website</marquee></strong></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #f2e6ff;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color:   #ffb3b3 !important;
+        }
+
+        .jumbotron {
+            background-image: url('scholarships.jpg');
+            background-size: cover;
+            color: #ffb3b3;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .footer {
+            background-color: #333;
+            color:       #ffb3b3;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Scholarship Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scholarships">Scholarships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eligibility">Eligibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#application">Application Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="jumbotron">
+        <div class="container">
+            <h1><strong><marquee>Welcome to Scholarship Website</marquee></strong></h1>
+            <p>Providing opportunities for higher education.</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We aim to assist students in achieving their educational goals by offering various scholarships.</p>
+        </div>
+    </div>
+
+    <!-- Scholarships Section -->
+    <div id="scholarships" class="section bg-light">
+        <div class="container">
+            <h2>Scholarships</h2>
+            <p>Explore our available scholarships and their details.</p>
+        </div>
+    </div>
+
+    <!-- Eligibility Section -->
+    <div id="eligibility" class="section">
+        <div class="container">
+            <h2>Eligibility</h2>
+            <p>Check the eligibility criteria for each scholarship.</p>
+        </div>
+    </div>
+
+    <!-- Application Process Section -->
+    <div id="application" class="section bg-light">
+        <div class="container">
+            <h2><strong>Application Process</strong></h2>
+            <p>Learn about the steps to apply for scholarships.</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for any inquiries or assistance regarding scholarships.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Scholarship Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
